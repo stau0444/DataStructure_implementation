@@ -23,3 +23,6 @@
 
 
 <img width="617" alt="Array" src="https://user-images.githubusercontent.com/51349774/179740093-cf97e8b4-3135-4b3d-9818-b32b246b920b.png">
+<img width="642" alt="LinkedList" src="https://user-images.githubusercontent.com/51349774/179740897-1aa2515e-bbea-4ba7-b122-00ed270339fc.png">
+<img width="698" alt="Queue" src="https://user-images.githubusercontent.com/51349774/179740909-bf7b3e61-c940-4615-a4c5-6ac1aeb828c1.png">
+<img width="596" alt="stack" src="https://user-images.githubusercontent.com/51349774/179740920-b5fea9d0-2a10-4dca-bb34-70b50f5e3ff3.png">
