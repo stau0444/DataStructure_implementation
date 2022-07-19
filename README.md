@@ -12,7 +12,7 @@
 자료구조에는 어떤 것들이 있나 ?
 ---
 ---
-###1. 선형자료구조
+### 1. 선형자료구조
 
  - 데이터가 한줄로 이어져 있는 데이터 구조를 말한다.
  - 앞의 요소(element)와 뒤의 요소가 1대1의 관계로 구성된다.
@@ -21,6 +21,5 @@
 #### 1-1  배열(Array) 
 > 선형으로 자료를 관리 , 정해진 크기의 메모리를 먼저 할당받아 사용하고 , 자료의 물리적 위치와 논리적 위치가 같다.
 
-![홈페이지 이미지](https://drive.google.com/file/d/1jl5uMQDjMHoGnsHQpYERxvlWuVUMHEq8https://drive.google.com/file/d/1jl5uMQDjMHoGnsHQpYERxvlWuVUMHEq8/view?usp=sharing)
 
-
+<img width="617" alt="Array" src="https://user-images.githubusercontent.com/51349774/179740093-cf97e8b4-3135-4b3d-9818-b32b246b920b.png">
