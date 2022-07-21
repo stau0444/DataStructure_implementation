@@ -60,3 +60,51 @@
 
 
 ### 2.비선형 자료구조
+
+---
+
+#### 2-1 Tree
+> - 부모노드와 자식 노드간의 연결로 이루어진 자료구조
+> - 대표적으로 힙(heap) , 이진트리(binary tree) ,이진 검색 트리(binary search tree)가 있다.
+
+---
+
+#### heap
+
+>- Priority queue(우선 큐)를 구현한 자료구조이다.
+>- 부모 노드가 자식 노드보다 항상 크거나 같은 값을 갖는 경우 Max Heap.
+>- 부모 노드가 자식 노드보다 항상 작거나 같은 값을 갖는 경우 Min Heap.
+>- Complete binary tree이기 때문에 항상 Left child 부터 채워진다.
+>- heap tree 를 이용하여 heap sort가 구현된다.
+>- heap tree에서 root가 가장 크거나(Maxheap) 작은(MinHeap) 수이기 때문에 root를 하나씩 꺼냄으로써 오름차순 혹은 내림차순으로 정렬이 된다.
+
+---
+#### Binary Search Tree
+
+>- 자료(Key)의 중복을 허용하지 않는다 
+>- 왼쪽 자식 노드는 부모 노드보다 작은값 , 오른쪽 자식 노드는 부모 노드보다 큰 값을 갖는다.
+>- 루트를 기준으로 평균 log₂ⁿ 만큼의 검색시간이 걸린다 여기서 n은 트리의 depth를 말한다.
+>- 편향트리(Skewed tree)가 만들어 질 수 있기 때문에 트리의 균형을 맞춰주는 Red Black Tree 혹은 AVL tree로 구현된다.
+>- 트리나 그래프의 엘리먼트를 돌아보는 것을 순회(traversal)한다고 하며 자식노드를 먼저 본 후에 부모를 보는지 , 부모를 먼저보고 자식을 보는지에 따라  preorder , post order가 있으며
+>- left - 부모 - right 순으로 살펴보는 inorder traversal 방식을 사용하면 자료가 정렬되어 출력된다(sorting 가능).
+>- Java의 TreeMap TreeSet은 Binary Search Tree를 통해 구현되어 있다.
+
+---
+
+#### Graph
+>- 정점과 간선들의 유한한 집합으로 이뤄진 자료구조이다 
+>- 여러 특성을 가지는 객체 혹은 노드를 정점(vertex)이라 부르며 이 객체들의 연결관계를 나타내는 것을 링크 혹은 edge라 한다.
+>- 간선은 방향성이 있는 걍우와 없는 경우가 있다 .
+>- 그래프를 구현하는 방법에는 인접 행렬(adjacency matrix),인접 리스트 (adjacency list)가 있다.
+>- 그래프를 탐색하는 방법은:BFS(bread first search) , DFS(depth first search)가 있다.
+
+---
+
+### Hashing
+
+>- 검색을 위한 자료구조 
+>- 키(key)에 대한 자료를 검색하기 위한 사전(dictionary) 개념의 자료 구조 
+>- key는 유일하고 이에 대한 value를 쌍으로 저장
+>- index = h(key):해시 함수가 key에 대한 인덱스를 반환해주고 , 해당 인덱스 위치에 자료를 저장하거나 검색하게 된다.
+>- 해시 함수에 의해 인덱스 연산이 산술적으로 가능하다->O(1)
+>- 저장되는 메모리 구조를 해시테이블이라 하며 자바에서는 HashMap , Properties 클래스로 구현되어 있다
