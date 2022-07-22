@@ -67,6 +67,17 @@ public class ArrayImpl {
     public int size(){
         return size;
     }
+
+    public void printAll(){
+        for (int i = 0 ; i<=size-1; i++){
+            if(i == size-1){
+                System.out.println(intArr[i]);
+            }else{
+                System.out.println(intArr[i]+"->");
+            }
+
+        }
+    }
 }
 
 

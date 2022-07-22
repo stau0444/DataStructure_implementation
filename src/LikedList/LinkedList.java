@@ -1,11 +1,13 @@
 package LikedList;
 
-import java.time.temporal.Temporal;
 
 public class LinkedList {
-    private Node head;
+    Node head;
     int count;
 
+    public boolean isEmpty(){
+        return head==null;
+    }
     public int getCount() {
         return count;
     }
