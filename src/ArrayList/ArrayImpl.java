@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.zip.ZipEntry;
 
 public class ArrayImpl {
